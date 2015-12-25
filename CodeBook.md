@@ -15,76 +15,76 @@ The tidy data created from the raw data contains 180 observations across 68 vari
 
 **List of Variables:**
 The following are the variables included in tidy dataset. 
-The units used for the all accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/seg2) and the units of angular velocity measured by gyroscope are in rad/seg.
+The units used for the all accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/seg2) and the units of angular velocity measured by gyroscope are in rad/seg. The **groupMean** prefix for all the varialbes below in the tidy data represents the mean of all measurement variables for each subject ID and activity combination.
 
 Variable #  | Variable Name | Variable Definition
 ------------ | ------------- | -------------------
 1 | subjectID | Unique identification for study participants. 
-2 | activity | Unique identification for study participants. 
-3 | groupMeanTimeBodyAccelerometerMeanX | Unique identification for study participants. 
-4 | groupMeanTimeBodyAccelerometerMeanY | Unique identification for study participants. 
-5 | groupMeanTimeBodyAccelerometerMeanZ | Unique identification for study participants. 
-6 | groupMeanTimeBodyAccelerometerStdX | Unique identification for study participants. 
-7 | groupMeanTimeBodyAccelerometerStdY | Unique identification for study participants. 
-8 | groupMeanTimeBodyAccelerometerStdZ | Unique identification for study participants. 
-9 | groupMeanTimeGravityAccelerometerMeanX | Unique identification for study participants. 
-10 | groupMeanTimeGravityAccelerometerMeanY | Unique identification for study participants. 
-11| groupMeanTimeGravityAccelerometerMeanZ | Unique identification for study participants. 
-12 | groupMeanTimeGravityAccelerometerStdX | Unique identification for study participants. 
-13 | groupMeanTimeGravityAccelerometerStdY | Unique identification for study participants. 
-14 | groupMeanTimeGravityAccelerometerStdZ | Unique identification for study participants. 
-15 | groupMeanTimeBodyAccelerometerJerkMeanX | Unique identification for study participants. 
-16 | groupMeanTimeBodyAccelerometerJerkMeanY | Unique identification for study participants. 
-17 | groupMeanTimeBodyAccelerometerJerkMeanZ | Unique identification for study participants. 
-18 | groupMeanTimeBodyAccelerometerJerkStdX | Unique identification for study participants. 
-19 | groupMeanTimeBodyAccelerometerJerkStdY | Unique identification for study participants. 
-20 | groupMeanTimeBodyAccelerometerJerkStdZ | Unique identification for study participants. 
-21 | groupMeanTimeBodyGyroscopeMeanX | Unique identification for study participants. 
-22 | groupMeanTimeBodyGyroscopeMeanY | Unique identification for study participants. 
-23 | groupMeanTimeBodyGyroscopeMeanZ | Unique identification for study participants. 
-24 | groupMeanTimeBodyGyroscopeStdX | Unique identification for study participants.
-25 | groupMeanTimeBodyGyroscopeStdY | Unique identification for study participants. 
-26 | groupMeanTimeBodyGyroscopeStdZ | Unique identification for study participants.
-27 | groupMeanTimeBodyGyroscopeJerkMeanX | Unique identification for study participants. 
-28 | groupMeanTimeBodyGyroscopeJerkMeanY | Unique identification for study participants.
-29 | groupMeanTimeBodyGyroscopeJerkMeanZ | Unique identification for study participants. 
-30 | groupMeanTimeBodyGyroscopeJerkStdX | Unique identification for study participants.
-31 | groupMeanTimeBodyGyroscopeJerkStdY | Unique identification for study participants. 
-32 | groupMeanTimeBodyGyroscopeJerkStdZ | Unique identification for study participants.
-33 | groupMeanTimeBodyAccelerometerMagnitudeMean | Unique identification for study participants. 
-34 | groupMeanTimeBodyAccelerometerMagnitudeStd | Unique identification for study participants.
-35 | groupMeanTimeGravityAccelerometerMagnitudeMean | Unique identification for study participants. 
-36 | groupMeanTimeGravityAccelerometerMagnitudeStd | Unique identification for study participants.
-37 | groupMeanTimeBodyAccelerometerJerkMagnitudeMean | Unique identification for study participants. 
-38 | groupMeanTimeBodyAccelerometerJerkMagnitudeStd | Unique identification for study participants.
-39 | groupMeanTimeBodyGyroscopeMagnitudeMean | Unique identification for study participants. 
-40 | groupMeanTimeBodyGyroscopeMagnitudeStd | Unique identification for study participants.
-41 | groupMeanTimeBodyGyroscopeJerkMagnitudeMean | Unique identification for study participants. 
-42 | groupMeanTimeBodyGyroscopeJerkMagnitudeStd | Unique identification for study participants.
-43 | groupMeanFreqBodyAccelerometerMeanX | Unique identification for study participants. 
-44 | groupMeanFreqBodyAccelerometerMeanY | Unique identification for study participants.
-45 | groupMeanFreqBodyAccelerometerMeanZ | Unique identification for study participants. 
-46 | groupMeanFreqBodyAccelerometerStdX | Unique identification for study participants.
-47 | groupMeanFreqBodyAccelerometerStdY | Unique identification for study participants. 
-48 | groupMeanFreqBodyAccelerometerStdZ | Unique identification for study participants.
-49 | groupMeanFreqBodyAccelerometerJerkMeanX | Unique identification for study participants. 
-50 | groupMeanFreqBodyAccelerometerJerkMeanY | Unique identification for study participants.
-51 | groupMeanFreqBodyAccelerometerJerkMeanZ | Unique identification for study participants.
-52 | groupMeanFreqBodyAccelerometerJerkStdX | Unique identification for study participants. 
-53 | groupMeanFreqBodyAccelerometerJerkStdY | Unique identification for study participants. 
-54 | groupMeanFreqBodyAccelerometerJerkStdZ | Unique identification for study participants. 
-55 | groupMeanFreqBodyGyroscopeMeanX | Unique identification for study participants. 
-56 | groupMeanFreqBodyGyroscopeMeanY | Unique identification for study participants. 
-57 | groupMeanFreqBodyGyroscopeMeanZ | Unique identification for study participants. 
-58 | groupMeanFreqBodyGyroscopeStdX | Unique identification for study participants. 
-59 | groupMeanFreqBodyGyroscopeStdY | Unique identification for study participants. 
-60 | groupMeanFreqBodyGyroscopeStdZ | Unique identification for study participants
-61 | groupMeanFreqBodyAccelerometerMagnitudeMean | Unique identification for study participants
-62 | groupMeanFreqBodyAccelerometerMagnitudeStd | Unique identification for study participants. 
-63 | groupMeanFreqBodyAccelerometerJerkMagnitudeMean | Unique identification for study participants. 
-64 | groupMeanFreqBodyAccelerometerJerkMagnitudeStd | Unique identification for study participants. 
-65 | groupMeanFreqBodyGyroscopeMagnitudeMean | Unique identification for study participants. 
-66 | groupMeanFreqBodyGyroscopeMagnitudeStd | Unique identification for study participants. 
-67 | groupMeanFreqBodyGyroscopeJerkMagnitudeMean | Unique identification for study participants. 
-68 | groupMeanFreqBodyGyroscopeJerkMagnitudeStd | Unique identification for study participants. 
+2 | activity | List of activities carried out by study participants. e.g Walking, Sitting 
+3 | groupMeanTimeBodyAccelerometerMeanX | Mean linear accelaration of the body measured by Accelerometer along the X axis. 
+4 | groupMeanTimeBodyAccelerometerMeanY | Mean linear accelaration of the body measured by Accelerometer along the Y axis. 
+5 | groupMeanTimeBodyAccelerometerMeanZ | Mean linear accelaration of the body measured by Accelerometer along the Z axis. 
+6 | groupMeanTimeBodyAccelerometerStdX | Mean standard deviation linear accelaration of the body measured by Accelerometer along the X axis. 
+7 | groupMeanTimeBodyAccelerometerStdY | Mean standard deviation linear accelaration of the body measured by Accelerometer along the Y axis. 
+8 | groupMeanTimeBodyAccelerometerStdZ | Mean standard deviation linear accelaration of the body measured by Accelerometer along the Z axis.
+9 | groupMeanTimeGravityAccelerometerMeanX | Mean linear accelaration of the gravity measured by Accelerometer along the X axis.
+10 | groupMeanTimeGravityAccelerometerMeanY | Mean linear accelaration of the gravity measured by Accelerometer along the Y axis. 
+11| groupMeanTimeGravityAccelerometerMeanZ | Mean linear accelaration of the gravity measured by Accelerometer along the Z axis.
+12 | groupMeanTimeGravityAccelerometerStdX | Mean standard deviation linear accelaration of the gravity measured by Accelerometer along the X axis.
+13 | groupMeanTimeGravityAccelerometerStdY | Mean standard deviation linear accelaration of the gravity measured by Accelerometer along the Y axis.
+14 | groupMeanTimeGravityAccelerometerStdZ | Mean standard deviation linear accelaration of the gravity measured by Accelerometer along the Z axis.
+15 | groupMeanTimeBodyAccelerometerJerkMeanX | Mean jerk accelaration of the body measured by Accelerometer along the X axis. 
+16 | groupMeanTimeBodyAccelerometerJerkMeanY | Mean jerk accelaration of the body measured by Accelerometer along the Y axis.
+17 | groupMeanTimeBodyAccelerometerJerkMeanZ | Mean jerk accelaration of the body measured by Accelerometer along the Z axis.
+18 | groupMeanTimeBodyAccelerometerJerkStdX | Mean standard deviation jerk accelaration of the body measured by Accelerometer along the X axis.
+19 | groupMeanTimeBodyAccelerometerJerkStdY | Mean standard deviation jerk accelaration of the body measured by Accelerometer along the Y axis. 
+20 | groupMeanTimeBodyAccelerometerJerkStdZ | Mean standard deviation jerk accelaration of the body measured by Accelerometer along the Z axis. 
+21 | groupMeanTimeBodyGyroscopeMeanX | Mean angular velocity of the body measured by Gyroscope along the X axis. 
+22 | groupMeanTimeBodyGyroscopeMeanY | Mean angular velocity of the body measured by Gyroscope along the Y axis.
+23 | groupMeanTimeBodyGyroscopeMeanZ | Mean angular velocity of the body measured by Gyroscope along the Z axis. 
+24 | groupMeanTimeBodyGyroscopeStdX | Mean standard deviation angular velocity of the body measured by Gyroscope along the X axis.
+25 | groupMeanTimeBodyGyroscopeStdY | Mean standard deviation angular velocity of the body measured by Gyroscope along the Y axis. 
+26 | groupMeanTimeBodyGyroscopeStdZ | Mean standard deviation angular velocity of the body measured by Gyroscope along the Z axis.
+27 | groupMeanTimeBodyGyroscopeJerkMeanX | Mean jerk angular velocity of the body measured by Gyroscope along the X axis. 
+28 | groupMeanTimeBodyGyroscopeJerkMeanY | Mean jerk angular velocity of the body measured by Gyroscope along the X axis
+29 | groupMeanTimeBodyGyroscopeJerkMeanZ | Mean jerk angular velocity of the body measured by Gyroscope along the X axis 
+30 | groupMeanTimeBodyGyroscopeJerkStdX | Mean standard deviation jerk angular velocity of the body measured by Gyroscope along the X axis
+31 | groupMeanTimeBodyGyroscopeJerkStdY | Mean standard deviation jerk angular velocity of the body measured by Gyroscope along the X axis 
+32 | groupMeanTimeBodyGyroscopeJerkStdZ | Mean standard deviation jerk angular velocity of the body measured by Gyroscope along the X axis
+33 | groupMeanTimeBodyAccelerometerMagnitudeMean | Mean linear accelaration magnitude of the body measured by Accelerometer.  
+34 | groupMeanTimeBodyAccelerometerMagnitudeStd | Mean std of linear accelaration magnitude of the body measured by Accelerometer.
+35 | groupMeanTimeGravityAccelerometerMagnitudeMean | Mean linear accelaration magnitude of gravity measured by Accelerometer. 
+36 | groupMeanTimeGravityAccelerometerMagnitudeStd | Mean std linear accelaration magnitude of gravity measured by Accelerometer.
+37 | groupMeanTimeBodyAccelerometerJerkMagnitudeMean | Mean jerk accelaration magnitude of the body measured by Accelerometer. 
+38 | groupMeanTimeBodyAccelerometerJerkMagnitudeStd | Mean std jerk accelaration magnitude of the body measured by Accelerometer.
+39 | groupMeanTimeBodyGyroscopeMagnitudeMean |  Mean angular velocity magnitude of the body measured by Gyroscope. 
+40 | groupMeanTimeBodyGyroscopeMagnitudeStd | Mean std angular velocity magnitude of the body measured by Gyroscope. 
+41 | groupMeanTimeBodyGyroscopeJerkMagnitudeMean | Mean jerk angular velocity magnitude of the body measured by Gyroscope.
+42 | groupMeanTimeBodyGyroscopeJerkMagnitudeStd | Mean std jerk angular velocity magnitude of the body measured by Gyroscope.
+43 | groupMeanFreqBodyAccelerometerMeanX | Mean linear accelaration of the body measured by Accelerometer in frequency domain along the X axis. 
+44 | groupMeanFreqBodyAccelerometerMeanY | Mean linear accelaration of the body measured by Accelerometer in frequency domain along the Y axis. 
+45 | groupMeanFreqBodyAccelerometerMeanZ | Mean linear accelaration of the body measured by Accelerometer in frequency domain along the Z axis. 
+46 | groupMeanFreqBodyAccelerometerStdX | Mean std linear accelaration of the body measured by Accelerometer in frequency domain along the X axis. 
+47 | groupMeanFreqBodyAccelerometerStdY | Mean std linear accelaration of the body measured by Accelerometer in frequency domain along the Y axis. 
+48 | groupMeanFreqBodyAccelerometerStdZ | Mean std linear accelaration of the body measured by Accelerometer in frequency domain along the Z axis. 
+49 | groupMeanFreqBodyAccelerometerJerkMeanX | Mean jerk linear accelaration of the body measured by Accelerometer in frequency domain along the X axis.  
+50 | groupMeanFreqBodyAccelerometerJerkMeanY | Mean jerk linear accelaration of the body measured by Accelerometer in frequency domain along the Y axis.  
+51 | groupMeanFreqBodyAccelerometerJerkMeanZ | Mean jerk linear accelaration of the body measured by Accelerometer in frequency domain along the Z axis.  
+52 | groupMeanFreqBodyAccelerometerJerkStdX | Mean std jerk linear accelaration of the body measured by Accelerometer in frequency domain along the X axis.  
+53 | groupMeanFreqBodyAccelerometerJerkStdY | Mean std jerk linear accelaration of the body measured by Accelerometer in frequency domain along the Y axis.  
+54 | groupMeanFreqBodyAccelerometerJerkStdZ | Mean std jerk linear accelaration of the body measured by Accelerometer in frequency domain along the Z axis. 
+55 | groupMeanFreqBodyGyroscopeMeanX | Mean angular velocity of the body measured by Gyroscope in frequency domain along the X axis. 
+56 | groupMeanFreqBodyGyroscopeMeanY | Mean angular velocity of the body measured by Gyroscope in frequency domain along the Y axis. 
+57 | groupMeanFreqBodyGyroscopeMeanZ | Mean angular velocity of the body measured by Gyroscope in frequency domain along the Z axis. 
+58 | groupMeanFreqBodyGyroscopeStdX | Mean std angular velocity of the body measured by Gyroscope in frequency domain along the X axis. 
+59 | groupMeanFreqBodyGyroscopeStdY | Mean std angular velocity of the body measured by Gyroscope in frequency domain along the Y axis. 
+60 | groupMeanFreqBodyGyroscopeStdZ | Mean std angular velocity of the body measured by Gyroscope in frequency domain along the Z axis. 
+61 | groupMeanFreqBodyAccelerometerMagnitudeMean | Mean linear accelaration magnitude of the body measured by Accelerometer in frequency domain.
+62 | groupMeanFreqBodyAccelerometerMagnitudeStd | Mean std linear accelaration magnitude of the body measured by Accelerometer in frequency domain.
+63 | groupMeanFreqBodyAccelerometerJerkMagnitudeMean | Mean jerk linear accelaration magnitude of the body measured by Accelerometer in frequency domain.
+64 | groupMeanFreqBodyAccelerometerJerkMagnitudeStd | Mean std jerk linear accelaration magnitude of the body measured by Accelerometer in frequency domain. 
+65 | groupMeanFreqBodyGyroscopeMagnitudeMean | Mean angular velocity magnitude of the body measured by Gyroscope in frequency domain.
+66 | groupMeanFreqBodyGyroscopeMagnitudeStd | Mean std angular velocity magnitude of the body measured by Gyroscope in frequency domain. 
+67 | groupMeanFreqBodyGyroscopeJerkMagnitudeMean | Mean jerk angular velocity magnitude of the body measured by Gyroscope in frequency domain.
+68 | groupMeanFreqBodyGyroscopeJerkMagnitudeStd | Mean std jerk angular velocity magnitude of the body measured by Gyroscope in frequency domain.
 
