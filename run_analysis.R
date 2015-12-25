@@ -21,6 +21,7 @@ subject_test <- read.table("./test/subject_test.txt",header = FALSE)
 #### reat features.txt file to populate the columsn names
 
 featurenames <- read.table("./features.txt",header = FALSE)
+feat <- featurenames[,2]
 
 #### set columsn names for x_train,X_test,y_test, y_train, subject_test and subject_train
 
