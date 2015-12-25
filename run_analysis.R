@@ -22,10 +22,6 @@ subject_test <- read.table("./test/subject_test.txt",header = FALSE)
 
 featurenames <- read.table("./features.txt",header = FALSE)
 
-dim(featurenames)
-feat <- featurenames[,2]
-
-
 #### set columsn names for x_train,X_test,y_test, y_train, subject_test and subject_train
 
 colnames(X_test) <- feat
