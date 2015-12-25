@@ -1,4 +1,4 @@
-# DataCleaningProject
+# README.md
 Getting and Cleaning Data course project README.md:
 
 This readme file explains the steps involved in reading the raw data, merging the training and test data sets and combining them all into one unified dataset. The repo contains run_analysis.R script that performs the following steps.
